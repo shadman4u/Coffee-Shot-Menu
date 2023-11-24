@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Playfair';
+    src: url(./Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Playfair2';
+    src: url(./Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+body{
+    background-image: url(./creamy_texture.avif);
+    padding: 20px;
+}
+
+.coffee_cup{
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px whitesmoke;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Playfair';
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.menu{
+    width: 80%;
+    background-color:whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    max-width: 500px;
+}
+
+.title{
+    font-family: 'Playfair2';
+    letter-spacing: 2px;
+    font-style: bold;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+    width: 50%;
+}
+
+.title2{
+    font-family:'Times New Roman', Times, serif, monospace;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+}
+
+.title3{
+    font-family:'Times New Roman', Times, serif, monospace;
+    font-size: 17px;
+    display: inline-block;
+    text-align: right;
+    width: 10%;
+}
+
+.title4{
+    font-family: 'Playfair2';
+    letter-spacing: 2px;
+}
+
+.coffee-type{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+}
+
+.price0{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+}
+
+.price1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+}
+
+.price2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: inline-block;
+    text-align: right;
+    width: 10%;
+}
+
+.item p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.item1 p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.item2 p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 3px;
+    background-color: black;
+    border: black;
+    
+}
+
+.tea-title{
+    font-family: 'Playfair2';
+    letter-spacing: 2px;
+    font-style: bold;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+    width: 40%;
+}
+
+.dessert-title{
+    font-family: 'Playfair2';
+    letter-spacing: 2px;
+    display: inline-block;
+    font-size: 20px;
+    width: 35%;
+}
+.space{
+    display: inline-block;
+    width: 11%;
+    text-align: right;
+}
+
+.drink{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: inline-block;
+    width: 25%;
+}
+
+.drink-price{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: inline-block;
+    width: 26%;
+}
+
+.drink1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+}
+
+.drink-price1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: inline-block;
+    width: 9%;
+    text-align: right;
+}
+
+.main{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+}
+
+.sub-main{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 11px;
+    color:slategray;
+    font-style: normal;
+    
+}
+
+footer{
+    font-family:monospace;
+    font-size: 10px;
+    text-align: center;
+    color:black;
+    font-style: normal;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
